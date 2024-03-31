@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #a338cd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cea0ea;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#friends-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px; 
+}
+
+#friends-info h2 {
+  margin-top: 0;
+  color: #555; 
+  font-size: 18px; 
+}
+
+.friend-entry {
+  margin-bottom: 10px;
+}
+
+.friend-entry input[type="text"],
+.friend-entry input[type="number"] {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.friend-entry::after {
+  content: '';
+  display: block;
+  clear: both;
+}
